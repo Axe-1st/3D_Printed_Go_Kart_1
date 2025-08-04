@@ -1,0 +1,35 @@
+img {
+    width: 100px;
+}
+body {
+    text-align: left;
+    font-family: "Arial" ;
+    background: burlywood;
+    color: whitesmoke;
+}
+p {
+    font-weight: 300;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}

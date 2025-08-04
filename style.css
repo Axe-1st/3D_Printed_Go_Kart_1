@@ -7,3 +7,6 @@ body {
     background: burlywood;
     color: whitesmoke;
 }
+p {
+    font-weight: 300;
+}
